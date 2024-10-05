@@ -11,7 +11,11 @@
     padding:0;
 }
 
-
+.headerLayout2{
+    width:100%;
+    background-color: white;
+    border-bottom:1px black solid;
+}
 .menu_section{
     
  display: flex;
