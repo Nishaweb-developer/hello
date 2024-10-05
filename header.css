@@ -1,8 +1,10 @@
 .header_section_scroll {
-    width: 80%;
-    margin: auto;
+    width: 100%;
     position: fixed;
     background-color: white;
+    padding: 0;
+    top:0;
+    z-index: 2;
    
 
 }
@@ -12,11 +14,9 @@
     margin: auto;
     position: fixed;
     background-color: white;
-  
-  
     padding: 0;
 
-    top: 20px;
+   
     z-index: 2;
 }
 
@@ -26,32 +26,16 @@
 
 .header-hidden {
     display: none;
-    width:100%;
+  
    
 }
 
-.header-visible {
 
-    width: 80%;
-    margin: auto;
-    position: fixed;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-
-    height: 60px;
-
-    padding: 0;
-
-
-    z-index: 2;
-
-}
 
 .header_section_scroll_one {
     display: flex;
+    width:80%;
+    margin:auto;
     align-items: center;
     justify-content: space-between;
 
@@ -147,6 +131,7 @@
 .header_section_scroll_two {
     display: flex;
     width: 80%;
+    margin:auto;
     height: 50px;
     gap: 10px;
     font-weight: 700;
