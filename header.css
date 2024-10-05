@@ -1,0 +1,159 @@
+.header_section_scroll {
+    width: 80%;
+    margin: auto;
+    position: fixed;
+    background-color: white;
+   
+
+}
+
+.header-hidden {
+    width: 80%;
+    margin: auto;
+    position: fixed;
+    background-color: white;
+  
+  
+    padding: 0;
+
+    top: 20px;
+    z-index: 2;
+}
+
+.header-visible {
+    display: block;
+}
+
+.header-hidden {
+    display: none;
+    width:100%;
+   
+}
+
+.header-visible {
+
+    width: 80%;
+    margin: auto;
+    position: fixed;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: 60px;
+
+    padding: 0;
+
+
+    z-index: 2;
+
+}
+
+.header_section_scroll_one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.header_section_scroll_one_1 img {
+    display: flex;
+
+    width: 188px;
+    height: 60px;
+}
+
+.header_section_scroll_one_2 {
+    display: flex;
+    width: 465px;
+    height: 44px;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 22px;
+    border: 1px black solid;
+}
+
+.header_section_scroll_one_search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 4px;
+}
+
+.header_section_scroll_one_search img {
+
+    display: flex;
+
+    width: 20px;
+    height: 20px;
+}
+
+.header_section_scroll_one_search input {
+
+
+    width: 300px;
+    height: 30px;
+    border: none;
+    font-size: 16px;
+}
+
+.header_section_scroll_one_search input:focus {
+    outline: none;
+}
+
+.header_section_scroll_one_3 {
+    display: flex;
+    gap: 15px;
+    padding: 4px;
+}
+
+.header_section_scroll_one_3 a {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.header_section_scroll_one_4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    gap: 2px;
+}
+
+.header_section_scroll_one_4 img {
+    width: 15px;
+    height: 15px;
+}
+
+.header_section_scroll_one_4 button {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px 10px;
+    height: 40px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_section_scroll_one_4 button:hover {
+    opacity: 0.6;
+}
+
+.header_section_scroll_two {
+    display: flex;
+    width: 80%;
+    height: 50px;
+    gap: 10px;
+    font-weight: 700;
+
+}
+
+.header_section_scroll_two p:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
