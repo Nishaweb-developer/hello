@@ -38,6 +38,7 @@
     margin:auto;
     align-items: center;
     justify-content: space-between;
+    padding:0px 10px;
 
 
 }
@@ -135,6 +136,7 @@
     height: 50px;
     gap: 10px;
     font-weight: 700;
+    padding:0px 10px;
 
 }
 
